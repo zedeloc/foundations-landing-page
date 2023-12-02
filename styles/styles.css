@@ -1,0 +1,68 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer,
+.hero {
+    background-color: #1f2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.super-white {
+    color: #f9faf8;
+}
+
+.just-white {
+    color: #e5e7eb;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-button {
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    word-wrap: wrap;
+}
+
+a {
+}
